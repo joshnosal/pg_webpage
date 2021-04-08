@@ -1,0 +1,28 @@
+.text-input fieldset {
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+.text-input .Mui-focused fieldset {
+  border: 1px solid #005091 !important;
+}
+.text-input input {
+  padding: 4px 8px !important;
+}
+.text-input .MuiInputBase-multiline {
+  padding: 4px 0 4px 8px !important;
+}
+
+.input-select .MuiSelect-root {
+  padding: 4px 8px;
+}
+.input-select.Mui-focused fieldset {
+  border: 1px solid #005091 !important;
+}
+
+.drop-zone {
+  height: 80px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.drop-zone:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
